@@ -1,0 +1,34 @@
+{
+  "name": "arrow-shuttle",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Arrow shuttlecock shop: Next.js App Router frontend with a server-side API layer.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "build:frontend": "FRONTEND_ONLY=1 next build"
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "@shadergradient/react": "^2.4.20",
+    "animejs": "^4.5.0",
+    "motion": "^14.14.0",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "server-only": "^0.0.1",
+    "three": "^0.169.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.6",
+    "raw-loader": "^4.0.2"
+  }
+}
